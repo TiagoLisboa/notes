@@ -1,0 +1,48 @@
+body, html {
+  height: 100%;
+}
+
+#content, .row, .col-right, .col-right>div, .col-right>div>textarea, .col-left  {
+  height: 100%;
+}
+
+.col-left {
+  padding: 0;
+  border-right: 1px solid #a9a9a9;
+}
+.col-right {
+  padding: 0;
+}
+
+.container-fluid {
+  /*padding: 5px;*/
+  height: 100%;
+}
+
+.notasContainer {
+  padding: 0;
+}
+
+.notaSelector {
+  list-style-type: none;
+  padding: 15px 5px;
+  border-bottom: 1px solid #a9a9a9;
+  height: 50px;
+  /*margin-bottom: 1px;*/
+}
+
+.notaTexto {
+  width: 100%;
+  height: 100%;
+  resize: none;
+  border: none;
+}
+
+.tools {
+  padding: 10px;
+  background-color: #a9a9a9;
+}
+
+.tools label {
+  padding-left: 10px;
+}
